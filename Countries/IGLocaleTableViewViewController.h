@@ -1,5 +1,5 @@
 //
-//  IGViewController.h
+//  IGLocaleTableViewViewController.h
 //  Countries
 //
 //  Created by Carsten Witzke on 31.05.13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IGViewController : UIViewController
+@interface IGLocaleTableViewViewController : UITableViewController
 
 @end
