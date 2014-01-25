@@ -3,12 +3,12 @@
 //  Countries
 //
 //  Created by Carsten Witzke on 31.05.13.
-//  Copyright (c) 2013 Innogames GmbH. All rights reserved.
+//  Copyright (c) 2014 staticline. All rights reserved.
 //
 
-#import "IGAppDelegate.h"
+#import "STLAppDelegate.h"
 
-@implementation IGAppDelegate
+@implementation STLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

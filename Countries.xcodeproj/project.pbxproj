@@ -12,14 +12,14 @@
 		CE3828021758B4C60055BD25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3828011758B4C60055BD25 /* CoreGraphics.framework */; };
 		CE3828081758B4C60055BD25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE3828061758B4C60055BD25 /* InfoPlist.strings */; };
 		CE38280A1758B4C60055BD25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3828091758B4C60055BD25 /* main.m */; };
-		CE38280E1758B4C60055BD25 /* IGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38280D1758B4C60055BD25 /* IGAppDelegate.m */; };
+		CE38280E1758B4C60055BD25 /* STLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38280D1758B4C60055BD25 /* STLAppDelegate.m */; };
 		CE3828101758B4C60055BD25 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE38280F1758B4C60055BD25 /* Default.png */; };
 		CE3828121758B4C60055BD25 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3828111758B4C60055BD25 /* Default@2x.png */; };
 		CE3828141758B4C60055BD25 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3828131758B4C60055BD25 /* Default-568h@2x.png */; };
 		CE3828171758B4C60055BD25 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3828151758B4C60055BD25 /* MainStoryboard_iPhone.storyboard */; };
 		CE38281A1758B4C60055BD25 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3828181758B4C60055BD25 /* MainStoryboard_iPad.storyboard */; };
-		CE3828251758C8DF0055BD25 /* IGLocaleTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3828241758C8DF0055BD25 /* IGLocaleTableViewViewController.m */; };
-		CE3828281758CC9B0055BD25 /* IGLocalizedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3828271758CC9B0055BD25 /* IGLocalizedCell.m */; };
+		CE3828251758C8DF0055BD25 /* STLLocaleTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3828241758C8DF0055BD25 /* STLLocaleTableViewViewController.m */; };
+		CE3828281758CC9B0055BD25 /* STLLocalizedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3828271758CC9B0055BD25 /* STLLocalizedCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,17 +31,17 @@
 		CE3828071758B4C60055BD25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE3828091758B4C60055BD25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE38280B1758B4C60055BD25 /* Countries-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Countries-Prefix.pch"; sourceTree = "<group>"; };
-		CE38280C1758B4C60055BD25 /* IGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGAppDelegate.h; sourceTree = "<group>"; };
-		CE38280D1758B4C60055BD25 /* IGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGAppDelegate.m; sourceTree = "<group>"; };
+		CE38280C1758B4C60055BD25 /* STLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STLAppDelegate.h; sourceTree = "<group>"; };
+		CE38280D1758B4C60055BD25 /* STLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STLAppDelegate.m; sourceTree = "<group>"; };
 		CE38280F1758B4C60055BD25 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CE3828111758B4C60055BD25 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CE3828131758B4C60055BD25 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CE3828161758B4C60055BD25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		CE3828191758B4C60055BD25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		CE3828231758C8DF0055BD25 /* IGLocaleTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLocaleTableViewViewController.h; sourceTree = "<group>"; };
-		CE3828241758C8DF0055BD25 /* IGLocaleTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLocaleTableViewViewController.m; sourceTree = "<group>"; };
-		CE3828261758CC9B0055BD25 /* IGLocalizedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLocalizedCell.h; sourceTree = "<group>"; };
-		CE3828271758CC9B0055BD25 /* IGLocalizedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLocalizedCell.m; sourceTree = "<group>"; };
+		CE3828231758C8DF0055BD25 /* STLLocaleTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLLocaleTableViewViewController.h; sourceTree = "<group>"; };
+		CE3828241758C8DF0055BD25 /* STLLocaleTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLLocaleTableViewViewController.m; sourceTree = "<group>"; };
+		CE3828261758CC9B0055BD25 /* STLLocalizedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLLocalizedCell.h; sourceTree = "<group>"; };
+		CE3828271758CC9B0055BD25 /* STLLocalizedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLLocalizedCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,15 +88,15 @@
 		CE3828031758B4C60055BD25 /* Countries */ = {
 			isa = PBXGroup;
 			children = (
-				CE38280C1758B4C60055BD25 /* IGAppDelegate.h */,
-				CE38280D1758B4C60055BD25 /* IGAppDelegate.m */,
+				CE38280C1758B4C60055BD25 /* STLAppDelegate.h */,
+				CE38280D1758B4C60055BD25 /* STLAppDelegate.m */,
 				CE3828151758B4C60055BD25 /* MainStoryboard_iPhone.storyboard */,
 				CE3828181758B4C60055BD25 /* MainStoryboard_iPad.storyboard */,
 				CE3828041758B4C60055BD25 /* Supporting Files */,
-				CE3828231758C8DF0055BD25 /* IGLocaleTableViewViewController.h */,
-				CE3828241758C8DF0055BD25 /* IGLocaleTableViewViewController.m */,
-				CE3828261758CC9B0055BD25 /* IGLocalizedCell.h */,
-				CE3828271758CC9B0055BD25 /* IGLocalizedCell.m */,
+				CE3828231758C8DF0055BD25 /* STLLocaleTableViewViewController.h */,
+				CE3828241758C8DF0055BD25 /* STLLocaleTableViewViewController.m */,
+				CE3828261758CC9B0055BD25 /* STLLocalizedCell.h */,
+				CE3828271758CC9B0055BD25 /* STLLocalizedCell.m */,
 			);
 			path = Countries;
 			sourceTree = "<group>";
@@ -141,9 +141,14 @@
 		CE3827F21758B4C60055BD25 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = IG;
+				CLASSPREFIX = STL;
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "Innogames GmbH";
+				ORGANIZATIONNAME = Staticline;
+				TargetAttributes = {
+					CE3827F91758B4C60055BD25 = {
+						DevelopmentTeam = 899TBUG98P;
+					};
+				};
 			};
 			buildConfigurationList = CE3827F51758B4C60055BD25 /* Build configuration list for PBXProject "Countries" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -184,9 +189,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE38280A1758B4C60055BD25 /* main.m in Sources */,
-				CE38280E1758B4C60055BD25 /* IGAppDelegate.m in Sources */,
-				CE3828251758C8DF0055BD25 /* IGLocaleTableViewViewController.m in Sources */,
-				CE3828281758CC9B0055BD25 /* IGLocalizedCell.m in Sources */,
+				CE38280E1758B4C60055BD25 /* STLAppDelegate.m in Sources */,
+				CE3828251758C8DF0055BD25 /* STLLocaleTableViewViewController.m in Sources */,
+				CE3828281758CC9B0055BD25 /* STLLocalizedCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,11 +286,14 @@
 		CE3828211758B4C60055BD25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Countries/Countries-Prefix.pch";
 				INFOPLIST_FILE = "Countries/Countries-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -293,11 +301,14 @@
 		CE3828221758B4C60055BD25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Countries/Countries-Prefix.pch";
 				INFOPLIST_FILE = "Countries/Countries-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -321,6 +332,7 @@
 				CE3828221758B4C60055BD25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -3,12 +3,12 @@
 //  Countries
 //
 //  Created by Carsten Witzke on 31.05.13.
-//  Copyright (c) 2013 Innogames GmbH. All rights reserved.
+//  Copyright (c) 2014 staticline. All rights reserved.
 //
 
-#import "IGLocalizedCell.h"
+#import "STLLocalizedCell.h"
 
-@implementation IGLocalizedCell
+@implementation STLLocalizedCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

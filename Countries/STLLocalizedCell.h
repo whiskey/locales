@@ -3,12 +3,12 @@
 //  Countries
 //
 //  Created by Carsten Witzke on 31.05.13.
-//  Copyright (c) 2013 Innogames GmbH. All rights reserved.
+//  Copyright (c) 2014 staticline. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface IGLocalizedCell : UITableViewCell
+@interface STLLocalizedCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *dateLabel;
 @property (weak, nonatomic) IBOutlet UILabel *timeLabel;
